@@ -1,0 +1,13 @@
+.toggle-theme-wrapper {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    .material-icons-outlined {
+        width: 48px;
+        height: 48px;
+        color: var(--secundary-text);
+    }
+}
