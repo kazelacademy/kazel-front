@@ -8,6 +8,8 @@
   width: 100vw;
   height: 100vh;
 
+
+
   .card-comingsoon {
     width: 100%;
     height: 100%;
@@ -20,65 +22,75 @@
     background: var(--surface-1);
     border-radius: 30px;
 
-    @media (min-width: 768px) {
+    .container {
+      width: 100%;
       height: 100%;
-      padding: calc(var(--margin) * 4) calc(var(--margin)* 2);
-    }
-
-    @media (min-width:1024px) {
-      padding: calc(var(--margin) * 4);
-    }
-
-    .logo-kazel {
-      width: 150px;
-      height: 182px;
-
-      .logo {
-        width: 100%;
-        height: fit-content;
-        margin-bottom: 8px;
-      }
-
-      svg {
-        width: 100%;
-        height: min-content;
-      }
-    }
-
-    .row {
       display: flex;
       flex-direction: column;
-      gap: 32px;
-      max-width: 500px;
-      height: auto;
+      justify-content: space-between;
+      align-items: center;
 
-      .title {
-        @media (min-width: 768px) {
-          line-height: 71px;
-        }
-
-        font-family: "gilroy";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 64px;
-        line-height: 64px;
-        margin: 0;
-        text-align: center;
-        letter-spacing: 0.035em;
-        background: linear-gradient(180deg, #b300ff 2.5%, #7700ff 93.48%),
-        #ffffff;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+      @media (min-width: 768px) {
+        height: 100%;
+        padding: calc(var(--margin) * 4) calc(var(--margin)* 2);
       }
 
-      .description {
-        font-size: 24px;
-        line-height: 33px;
-        margin: 0;
-        text-align: center;
+      @media (min-width:1024px) {
+        padding: calc(var(--margin) * 4);
+      }
+
+      .logo-kazel {
+        width: 150px;
+        height: 182px;
+
+        .logo {
+          width: 100%;
+          height: fit-content;
+          margin-bottom: 8px;
+        }
+
+        svg {
+          width: 100%;
+          height: min-content;
+        }
+      }
+
+      .row {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        max-width: 500px;
+        height: auto;
+
+        .title {
+          @media (min-width: 768px) {
+            line-height: 71px;
+          }
+
+          font-family: "gilroy";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 64px;
+          line-height: 64px;
+          margin: 0;
+          text-align: center;
+          letter-spacing: 0.035em;
+          background: linear-gradient(180deg, #b300ff 2.5%, #7700ff 93.48%),
+          #ffffff;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .description {
+          font-size: 24px;
+          line-height: 33px;
+          margin: 0;
+          text-align: center;
+        }
       }
     }
   }
+
 
   @media (min-width: 768px) {
     padding: 64px;
