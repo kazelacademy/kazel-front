@@ -1,0 +1,29 @@
+// ROOT
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+:root {
+    --font-color: rgba(0, 0, 0, 0.9);
+    --background-color: #F2F2F2;
+    --link-color: #6E34AF;
+    --surface-1: #FAFAFA;
+    --surface-2: #FFFFFF;
+    --margin: 16px;
+    --secundary-text: rgba(0, 0, 0, 0.66);
+
+    .logo-title {
+        fill: rgba(0, 0, 0, 0.9);
+    }
+}
+
+
+
+/* 2 */
+[data-theme="dark"] {
+    --font-color: rgba(255, 255, 255, 0.9);
+    --background-color: #121212;
+    --surface-1: #1E1E1E;
+    --surface-2: #272727;
+    --secundary-text: rgba(255, 255, 255, 0.66);
+    --link-color: rgba(255, 255, 255, 0.9);
+
+}

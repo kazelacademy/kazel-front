@@ -1,0 +1,161 @@
+// MAIN COLORS
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+$primary: #6E34AF !default;
+$default-bg: #F2F2F2;
+$dark-bg: #121212;
+
+$surface-1: #FAFAFA;
+$surface-2: #FFFFFF;
+$dark-surface-1: #1E1E1E;
+$dark-surface-2: #272727;
+
+
+$secondary: #363b4d !default;
+
+$dark: #1c1b19 !default;
+$light: #f4f5f6 !default;
+$white: white !default;
+
+// EXTRA COLORS
+$success: #2ECC71 !default;
+$info: #17a2b8 !default;
+$warning: #F3BB45 !default;
+$danger: #E74C3C !default;
+$gray: gray !default;
+$muted: #9E9E9E !default;
+
+
+// DEFAILT TEXT COLOR
+$default-text-color: rgba(0, 0, 0, 0.9) !default;
+$default-text-secondary-color: rgba(0, 0, 0, 0.66) !default;
+$default-text-disabled-color: rgba(0, 0, 0, 0.4) !default;
+$dark-text-secondary-color: rgba(255, 255, 255, 0.66) !default;
+$dark-text-disabled-color: rgba(255, 255, 255, 0.4) !default;
+$dark-text-color: rgba(255, 255, 255, 0.9) !default;
+
+// TYPOGRAPHY
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+// FONT DEFAULTS
+$line-height: 1.5 !default;
+$font-size-base: 16px !default;
+$font-margin-base: 5px !default;
+$font-weight-base: 400 !default;
+$font-weight-bold: bold !default;
+
+// DEFAULT FONT
+$font-family-base: "gilroy" !default;
+
+// FONT SIZES
+$h1: 46px !default;
+$h2: 36px !default;
+$h3: 28px !default;
+$h4: 22px !default;
+$h5: 18px !default;
+$h6: 16px !default;
+
+$display-1: 80px !default;
+$display-2: 70px !default;
+$display-3: 60px !default;
+$display-4: 50px !default;
+
+
+
+// GRID
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// SMALL
+$small-media: '590px' !default; // EDITABLE
+
+// MEDIUM
+$medium-media: '790px' !default; // EDITABLE
+
+// LARGE
+$large-media: '1160px' !default; // EDITABLE
+
+// XL
+$xl-media: '1260px' !default; // EDITABLE
+
+
+
+
+// UTILITIES
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// CONTAINER
+$container: 1150px !default;
+$container-fluid: 100% !default;
+
+
+// TRANSITION
+$transition: all 0.220s ease !default;
+
+
+// DEFAULT PADDING
+$default-padding: 10px !default;
+
+
+// BORDER RADIUS
+$border-radius: 4px !default;
+$radius: true !default;
+
+
+// BREAD CRUMB DIVIDER
+$breadcrumb-divider: quote("\f101") !default;
+
+// GRID ARRAYS
+$grid-array: (
+    '-sm': $small-media,
+    '-md': $medium-media,
+    '-lg': $large-media,
+    '-xl': $xl-media
+);
+
+
+// GRID SYSTEM
+$grid_name: 'row' !default; // Name
+$grid_col: 12 !default; // Columns
+$grid_gutter: $default-padding  !default; // Path: ./vars/variables
+$grid_col_name: 'col' !default; // ex: col-md-12
+$grid_auto: 'column' !default; // Auto column
+
+
+// BACKGROUND & TEXT COLORS
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+$colors: (
+    'primary': $primary,
+    'secondary': $secondary,
+    'light': $light,
+    'dark': $dark,
+    'gray': $gray,
+    'white': $white,
+    'success': $success,
+    'info': $info,
+    'warning': $warning,
+    'danger': $danger,
+    'muted': $muted
+);
+
+
+// BUTTON COLORS
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+// BUTTON COLORS
+$btn-colors: (
+    'primary': $primary,
+    'secondary': $secondary,
+    'light': $light,
+    'white': $white,
+    'dark': $dark,
+    'gray': $gray,
+    'muted': $muted,
+    'success': $success,
+    'info': $info,
+    'warning': $warning,
+    'danger': $danger,
+);
